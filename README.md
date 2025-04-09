@@ -1,4 +1,4 @@
-wrong-api
+# wrong-api
 
 A simple Express-based API for tracking injustices and individuals involved. This project interfaces with a PostgreSQL database and provides routes for retrieving and managing "wrongs" and "people".
 Features
@@ -16,7 +16,7 @@ Features
 
     Basic CORS configuration
 
-Tech Stack
+### Tech Stack
 
     Node.js
 
@@ -26,8 +26,7 @@ Tech Stack
 
     CORS
 
-Getting Started
-Prerequisites
+### Getting StartedPrerequisites
 
     Node.js (v16+ recommended)
 
@@ -35,7 +34,7 @@ Prerequisites
 
     npm
 
-Installation
+### Installation
 
     Clone the repo:
 
@@ -64,7 +63,7 @@ POST /people request body:
 "person_name": "John Doe"
 }
 
-Notes
+### Notes
 
     PATCH and DELETE routes are defined but not yet implemented.
 
